@@ -7,26 +7,25 @@ int main (void) {
     int i, wynik;
         for (i=1; i <= 10000 ; i++){
             wynik = perfect(i);
-            if (wynik == 1) //jesli funkcja zwrocila 1 pokaz na ekranie
+            if (wynik == 1) 
                 printf("%d\n", i);
     }
     return 0;
 }
 
 int perfect (int i){
-    int licznik, suma_dziel, wynik;
-        suma_dziel = 0;
-        licznik = 1;
-        while (licznik <= i/2){
-            if (i % licznik == 0){ //                 sprawdz czy reszta z dzielenia to 0
-                suma_dziel = suma_dziel + licznik; // jesli tak dodaj do sumy dzielnikow
-                ++licznik;
-            }
+     int licznik, suma_dziel, wynik;
+     suma_dziel = 0;
+     licznik = 1;
+     while (licznik <= i/2){
+         if (i % licznik == 0){ //             sprawdz czy reszta z dzielenia to 0
+         suma_dziel = suma_dziel + licznik; // jesli tak dodaj do sumy dzielnikow
+         ++licznik;
+      }
             else
                 ++licznik;
-            
         }
-        if (suma_dziel == i) // jesli suma dzielnikow rowna sie i zwroc true (1)
+        if (suma_dziel == i) 
             wynik = 1;
         else
             wynik = 0;
