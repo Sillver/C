@@ -1,24 +1,24 @@
 # include <stdio.h>
 # include <math.h>
 
-int perfect (int x); // delkaracja funkcji perfect
+int perfect (int x); 
 
 int main (void) {
     int i, wynik;
         for (i=1; i <= 10000 ; i++){
-            wynik = power(i)
+            wynik = perfect(i);
             if (wynik == 1) //jesli funkcja zwrocila 1 pokaz na ekranie
                 printf("%d\n", i);
-        }
-return 0;
+    }
+    return 0;
 }
 
-int power (int i){
+int perfect (int i){
     int licznik, suma_dziel, wynik;
         suma_dziel = 0;
         licznik = 1;
         while (licznik <= i/2){
-            if (i % licznik == 0){ //sprwdz czy reszta z dzielenia to 0
+            if (i % licznik == 0){ //                 sprawdz czy reszta z dzielenia to 0
                 suma_dziel = suma_dziel + licznik; // jesli tak dodaj do sumy dzielnikow
                 ++licznik;
             }
