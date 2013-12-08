@@ -21,3 +21,4 @@ double wynik;
     wynik = sqrt(a * a + b * b);
     
     return wynik;
+    
