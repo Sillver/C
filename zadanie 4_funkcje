@@ -5,7 +5,7 @@ int switch (int liczba);
 
 int main (void){
 int liczba;
-printf("podaj liczbe calkowita: ");
+printf("wprowadz liczbe: ");
 scanf("%d", liczba);
 }
 */
