@@ -1,0 +1,20 @@
+#include <studio.h>
+
+/* potęga 
+long long int potęga(int n int k) {
+ long long results = 1;
+
+ return results
+ }
+
+ int main(void) {
+  int x, y;
+   long long int wunik;
+
+   printf("obliczenie potęgi\n");
+   printf("podaj podstawe:");
+   scanf("sd", 8x);
+   printf("podaj wykładnik");
+   scanf("sd", 8x);
+
+   wynik=potęga(x, y);
