@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+/* odwroc(abcd)-> odwroc(abc)*/
 char odwroc(char a[]);
 
 int main(void){
@@ -12,16 +13,6 @@ int main(void){
    return 0;
 }
 
-char odwroc(char a[]){
-    int i, y;
-    char wynik[10];
-    y = 0;
-    i = 10;
-    while (i >= 0){
-    a[i] = wynik[y];
-    --i;
-    ++y;
-    }
+char odwroc(char a []){
 
-    return wynik[10];
 }
