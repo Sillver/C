@@ -18,3 +18,4 @@ long long int potęga(int n int k) {
    scanf("sd", 8x);
 
    wynik=potęga(x, y);
+   
